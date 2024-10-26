@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-top: 56px; /* to prevent overlap with fixed navbar */
+}
+
+section {
+    padding: 60px 0;
+}
+.lead{
+    color:black;
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Home Section Styles */
+#home {
+    background: url('https://source.unsplash.com/featured/?tech') no-repeat center center/cover;
+    color: white;
+}
+
+#home h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 15px 30px;
+}
+
+/* Cards for Skills and Projects */
+.card {
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
